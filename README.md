@@ -29,6 +29,20 @@ The goal of this profile is not to collect one-off scripts. Each flagship reposi
 | **[Analisi-MyDoom](https://github.com/Michel-DV/Analisi-MyDoom)** | Malware-analysis and detection-engineering case study with report, YARA, Sigma, machine-readable IOCs and ATT&CK mapping. | YARA · Sigma · Python · CTI |
 | **[Python-RedTeam-C2-Framework](https://github.com/Michel-DV/Python-RedTeam-C2-Framework)** | Loopback-only controller/agent protocol lab focused on framing, validation, safe command dispatch, testing and detection-oriented study. | Python · Sockets · Protocols |
 
+## Legacy Windows research
+
+**[Windows-Process-Injector-C](https://github.com/Michel-DV/Windows-Process-Injector-C)** is intentionally kept outside the flagship engineering set and presented as a **legacy WinAPI research PoC**. It documents the classic `OpenProcess → VirtualAllocEx → WriteProcessMemory → CreateRemoteThread` chain so the underlying Windows primitive can be studied from a malware-analysis and detection-engineering perspective. Its README explicitly documents the technique, defensive telemetry, ATT&CK T1055 mapping, limitations and lab-only scope.
+
+That project is useful in the portfolio because it creates a clear progression:
+
+```text
+understand the injection primitive
+          ↓
+observe endpoint state with ProcSentinel-C
+          ↓
+correlate behavior over time with Win-TraceGuard
+```
+
 ## Portfolio map
 
 <p align="center">
