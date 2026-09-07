@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">MDV Security Portfolio Map</title>
+  <desc id="desc">Map of flagship projects grouped by security domain</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070a09"/>
+      <stop offset="1" stop-color="#0c1411"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="520" rx="20" fill="url(#bg)" stroke="#39ff88" stroke-opacity="0.15"/>
+
+  <text x="60" y="62" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="28" font-weight="800" fill="#f0fff4">PORTFOLIO MAP</text>
+  <text x="60" y="92" font-family="Consolas, Menlo, monospace" font-size="15" fill="#91a79a">Flagship projects by security domain</text>
+
+  <g stroke="#39ff88" stroke-opacity="0.25" stroke-width="2" fill="none">
+    <path d="M600 154V210"/>
+    <path d="M600 210H220V250"/>
+    <path d="M600 210H600V250"/>
+    <path d="M600 210H980V250"/>
+  </g>
+
+  <g transform="translate(438 116)">
+    <rect width="324" height="78" rx="16" fill="#0f1b17" stroke="#39ff88" stroke-opacity="0.55"/>
+    <text x="162" y="34" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#eafff0">MICHEL-DV SECURITY LAB</text>
+    <text x="162" y="57" text-anchor="middle" font-family="Consolas, monospace" font-size="13" fill="#39ff88">observe • analyze • detect • explain</text>
+  </g>
+
+  <g transform="translate(60 250)">
+    <rect width="320" height="210" rx="18" fill="#0d1512" stroke="#39ff88" stroke-opacity="0.32"/>
+    <text x="24" y="38" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#39ff88">ENDPOINT / WINDOWS</text>
+    <text x="24" y="78" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#f0fff4">ProcSentinel-C</text>
+    <text x="24" y="102" font-family="Consolas, monospace" font-size="13" fill="#9eb3a6">PE + process triage • C11 • WinAPI</text>
+    <text x="24" y="145" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#f0fff4">Win-TraceGuard</text>
+    <text x="24" y="169" font-family="Consolas, monospace" font-size="13" fill="#9eb3a6">ETW telemetry • detections • C11</text>
+    <circle cx="292" cy="34" r="5" fill="#39ff88" filter="url(#glow)"/>
+  </g>
+
+  <g transform="translate(440 250)">
+    <rect width="320" height="210" rx="18" fill="#0d1512" stroke="#39ff88" stroke-opacity="0.32"/>
+    <text x="24" y="38" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#39ff88">NETWORK / IoT</text>
+    <text x="24" y="78" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#f0fff4">VoidWalker</text>
+    <text x="24" y="102" font-family="Consolas, monospace" font-size="13" fill="#9eb3a6">IoT discovery • exposure triage • Python</text>
+    <text x="24" y="145" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#f0fff4">Go-Fast-Scanner</text>
+    <text x="24" y="169" font-family="Consolas, monospace" font-size="13" fill="#9eb3a6">Concurrent TCP connect scanning • Go</text>
+    <circle cx="292" cy="34" r="5" fill="#39ff88" filter="url(#glow)"/>
+  </g>
+
+  <g transform="translate(820 250)">
+    <rect width="320" height="210" rx="18" fill="#0d1512" stroke="#39ff88" stroke-opacity="0.32"/>
+    <text x="24" y="38" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#39ff88">ANALYSIS / PROTOCOLS</text>
+    <text x="24" y="78" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#f0fff4">Analisi-MyDoom</text>
+    <text x="24" y="102" font-family="Consolas, monospace" font-size="13" fill="#9eb3a6">Malware analysis • YARA • Sigma • ATT&amp;CK</text>
+    <text x="24" y="145" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#f0fff4">Python C2 Lab</text>
+    <text x="24" y="169" font-family="Consolas, monospace" font-size="13" fill="#9eb3a6">Loopback protocol lab • framing • tests</text>
+    <circle cx="292" cy="34" r="5" fill="#39ff88" filter="url(#glow)"/>
+  </g>
+
+  <text x="60" y="495" font-family="Consolas, monospace" font-size="13" fill="#7f9688">All security tooling is intended for authorized labs, defensive research, detection engineering, or controlled testing.</text>
+</svg>
