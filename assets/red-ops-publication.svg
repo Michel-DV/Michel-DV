@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+  <title id="title">RED OPS Security Manual</title>
+  <desc id="desc">Publication card for the RED OPS Security Manual by Michel-DV</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#09090b"/>
+      <stop offset="0.6" stop-color="#111014"/>
+      <stop offset="1" stop-color="#1b0b0f"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="260" rx="22" fill="url(#bg)" stroke="#b91c3a" stroke-opacity="0.55"/>
+  <rect x="0" y="0" width="18" height="260" rx="9" fill="#b91c3a"/>
+  <circle cx="1118" cy="56" r="7" fill="#e11d48" filter="url(#glow)"/>
+
+  <text x="70" y="64" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#e11d48">PUBLICATION / FIELD REFERENCE</text>
+  <text x="70" y="118" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="42" font-weight="900" fill="#f8fafc">RED OPS SECURITY MANUAL</text>
+  <text x="70" y="154" font-family="Consolas, Menlo, monospace" font-size="17" fill="#c4c7cc">Practical penetration testing &amp; red team field reference</text>
+
+  <g transform="translate(70 188)">
+    <rect width="154" height="34" rx="17" fill="#2a1118" stroke="#b91c3a" stroke-opacity="0.7"/>
+    <text x="77" y="22" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="13" fill="#fda4af">107-page manual</text>
+  </g>
+  <g transform="translate(240 188)">
+    <rect width="136" height="34" rx="17" fill="#2a1118" stroke="#b91c3a" stroke-opacity="0.7"/>
+    <text x="68" y="22" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="13" fill="#fda4af">7 full guides</text>
+  </g>
+  <g transform="translate(392 188)">
+    <rect width="170" height="34" rx="17" fill="#2a1118" stroke="#b91c3a" stroke-opacity="0.7"/>
+    <text x="85" y="22" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="13" fill="#fda4af">28-page field cards</text>
+  </g>
+
+  <text x="1120" y="205" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#f8fafc">MICHEL-DV</text>
+  <text x="1120" y="228" text-anchor="end" font-family="Consolas, Menlo, monospace" font-size="12" fill="#9ca3af">v1.0.0 • 2026</text>
+</svg>
