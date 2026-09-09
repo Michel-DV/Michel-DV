@@ -8,17 +8,18 @@
   <a href="https://github.com/Michel-DV/VoidWalker"><img src="https://img.shields.io/badge/Python-IoT%20Security-39ff88?style=flat-square&labelColor=111814" alt="Python IoT Security" /></a>
   <a href="https://github.com/Michel-DV/Go-Fast-Scanner"><img src="https://img.shields.io/badge/Go-Network%20Security-39ff88?style=flat-square&labelColor=111814" alt="Go Network Security" /></a>
   <a href="https://github.com/Michel-DV/Analisi-MyDoom"><img src="https://img.shields.io/badge/YARA%20%2F%20Sigma-Malware%20Analysis-39ff88?style=flat-square&labelColor=111814" alt="Malware Analysis" /></a>
+  <a href="https://github.com/Michel-DV/red-ops-security-manual"><img src="https://img.shields.io/badge/RED%20OPS-Field%20Reference-b91c3a?style=flat-square&labelColor=1b0b0f" alt="RED OPS Security Manual" /></a>
 </p>
 
 ## About this profile
 
-I build practical cybersecurity projects around **Windows internals, endpoint telemetry, detection engineering, malware analysis, network security and IoT security**.
+I build practical cybersecurity projects around **Windows internals, endpoint telemetry, detection engineering, malware analysis, network security and IoT security** — and I publish technical field references that turn those ideas into repeatable assessment workflows.
 
 The goal of this profile is not to collect one-off scripts. Each flagship repository is treated as a small engineering project: clear scope, reproducible builds, tests, CI, structured output, documentation and an explicit security boundary.
 
 > **Security scope:** projects here are intended for authorized labs, defensive research, detection engineering, education, or controlled security testing.
 
-## Flagship projects
+## Flagship engineering projects
 
 | Project | What it demonstrates | Stack |
 | --- | --- | --- |
@@ -28,6 +29,20 @@ The goal of this profile is not to collect one-off scripts. Each flagship reposi
 | **[Go-Fast-Scanner](https://github.com/Michel-DV/Go-Fast-Scanner)** | Concurrent TCP connect scanning with bounded workers, cancellation, validated input, IPv4/IPv6-safe addressing and JSON output. | Go · Concurrency · TCP |
 | **[Analisi-MyDoom](https://github.com/Michel-DV/Analisi-MyDoom)** | Malware-analysis and detection-engineering case study with report, YARA, Sigma, machine-readable IOCs and ATT&CK mapping. | YARA · Sigma · Python · CTI |
 | **[Python-RedTeam-C2-Framework](https://github.com/Michel-DV/Python-RedTeam-C2-Framework)** | Loopback-only controller/agent protocol lab focused on framing, validation, safe command dispatch, testing and detection-oriented study. | Python · Sockets · Protocols |
+
+## Publication & field reference
+
+<a href="https://github.com/Michel-DV/red-ops-security-manual">
+  <img src="assets/red-ops-publication.svg" alt="RED OPS Security Manual" width="100%" />
+</a>
+
+**[RED OPS Security Manual](https://github.com/Michel-DV/red-ops-security-manual)** is my connected field reference for authorized penetration testing and red team workflows.
+
+The **v1.0.0 Complete Edition** is organized as a 107-page manual with seven complete guides and a 28-page field-card set covering recon, network enumeration, web content discovery, post-exploitation, Active Directory, credential testing, wireless auditing and cross-phase hand-offs.
+
+The public repository is intentionally limited to project information, a controlled preview, provenance records and publication metadata; the complete customer edition and private build/source tree are kept outside the public repo.
+
+Authorship and provenance are explicitly recorded under **Michel-DV** through the repository history, `CITATION.cff`, release manifests, document metadata and copyright notices.
 
 ## Legacy Windows research
 
@@ -60,7 +75,8 @@ security idea
     ├── add structured output
     ├── test edge cases
     ├── automate CI
-    └── document assumptions, limits & security boundaries
+    ├── document assumptions & limits
+    └── publish only what has a clear security boundary
 ```
 
 A few principles recur across the repositories:
@@ -70,6 +86,7 @@ A few principles recur across the repositories:
 - **Safe lab boundaries** — simulation projects are deliberately constrained instead of hiding unrestricted behavior behind a new label.
 - **Reproducibility** — CI, tests and build instructions are part of the project, not an afterthought.
 - **Useful output** — human-readable terminal views plus JSON/JSONL or machine-readable artifacts where appropriate.
+- **Field usability** — documentation should help move from one assessment phase to the next, not just list commands in isolation.
 
 ## Project health
 
@@ -82,8 +99,9 @@ A few principles recur across the repositories:
   <a href="https://github.com/Michel-DV/Analisi-MyDoom/actions/workflows/build-report.yml"><img src="https://github.com/Michel-DV/Analisi-MyDoom/actions/workflows/build-report.yml/badge.svg?branch=main" alt="MyDoom report CI" /></a>
 </p>
 
-## Releases
+## Releases & publications
 
+- **RED OPS Security Manual** — `v1.0.0`
 - **ProcSentinel-C** — `v1.0.0`
 - **Win-TraceGuard** — `v1.0.1`
 - **VoidWalker** — `v2.1.0`
