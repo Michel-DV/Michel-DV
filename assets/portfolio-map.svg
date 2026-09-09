@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660" role="img" aria-labelledby="title desc">
   <title id="title">MDV Security Portfolio Map</title>
-  <desc id="desc">Map of flagship projects grouped by security domain</desc>
+  <desc id="desc">Map of flagship engineering projects and the RED OPS technical publication</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#070a09"/>
@@ -11,16 +11,17 @@
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
-  <rect width="1200" height="520" rx="20" fill="url(#bg)" stroke="#39ff88" stroke-opacity="0.15"/>
+  <rect width="1200" height="660" rx="20" fill="url(#bg)" stroke="#39ff88" stroke-opacity="0.15"/>
 
   <text x="60" y="62" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="28" font-weight="800" fill="#f0fff4">PORTFOLIO MAP</text>
-  <text x="60" y="92" font-family="Consolas, Menlo, monospace" font-size="15" fill="#91a79a">Flagship projects by security domain</text>
+  <text x="60" y="92" font-family="Consolas, Menlo, monospace" font-size="15" fill="#91a79a">Engineering projects + technical publication</text>
 
   <g stroke="#39ff88" stroke-opacity="0.25" stroke-width="2" fill="none">
     <path d="M600 154V210"/>
     <path d="M600 210H220V250"/>
     <path d="M600 210H600V250"/>
     <path d="M600 210H980V250"/>
+    <path d="M600 460V500"/>
   </g>
 
   <g transform="translate(438 116)">
@@ -59,5 +60,14 @@
     <circle cx="292" cy="34" r="5" fill="#39ff88" filter="url(#glow)"/>
   </g>
 
-  <text x="60" y="495" font-family="Consolas, monospace" font-size="13" fill="#7f9688">All security tooling is intended for authorized labs, defensive research, detection engineering, or controlled testing.</text>
+  <g transform="translate(250 500)">
+    <rect width="700" height="104" rx="18" fill="#1b0b0f" stroke="#b91c3a" stroke-opacity="0.72"/>
+    <rect width="12" height="104" rx="6" fill="#b91c3a"/>
+    <text x="40" y="32" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#e11d48">PUBLICATION / FIELD REFERENCE</text>
+    <text x="40" y="63" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="800" fill="#f8fafc">RED OPS Security Manual</text>
+    <text x="40" y="87" font-family="Consolas, monospace" font-size="13" fill="#c4c7cc">107 pages • 7 guides • 28-page field cards • v1.0.0</text>
+    <circle cx="662" cy="30" r="5" fill="#e11d48" filter="url(#glow)"/>
+  </g>
+
+  <text x="60" y="636" font-family="Consolas, monospace" font-size="13" fill="#7f9688">Authorized labs • defensive research • detection engineering • controlled security testing • technical publishing</text>
 </svg>
