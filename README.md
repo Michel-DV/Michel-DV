@@ -9,13 +9,14 @@
   <a href="https://github.com/Michel-DV/Go-Fast-Scanner"><img src="https://img.shields.io/badge/Go-Network%20Security-39ff88?style=flat-square&labelColor=111814" alt="Go Network Security" /></a>
   <a href="https://github.com/Michel-DV/Analisi-MyDoom"><img src="https://img.shields.io/badge/YARA%20%2F%20Sigma-Malware%20Analysis-39ff88?style=flat-square&labelColor=111814" alt="Malware Analysis" /></a>
   <a href="https://github.com/Michel-DV/red-ops-security-manual"><img src="https://img.shields.io/badge/RED%20OPS-Field%20Reference-b91c3a?style=flat-square&labelColor=1b0b0f" alt="RED OPS Security Manual" /></a>
+  <a href="https://github.com/Michel-DV/3cx-desktopapp-supply-chain-case-study"><img src="https://img.shields.io/badge/CASE--001%E2%86%92003-Threat%20Research-c2415d?style=flat-square&labelColor=1b0b0f" alt="Threat Case Studies" /></a>
 </p>
 
 ## About this profile
 
-I build practical cybersecurity projects around **Windows internals, endpoint telemetry, detection engineering, malware analysis, network security and IoT security** — and I publish technical field references that turn those ideas into repeatable assessment workflows.
+I build practical cybersecurity projects around **Windows internals, endpoint telemetry, detection engineering, malware analysis, network security and IoT security** — and I publish technical field references and **threat-research case studies** that turn real incidents into reproducible defensive lessons.
 
-The goal of this profile is not to collect one-off scripts. Each flagship repository is treated as a small engineering project: clear scope, reproducible builds, tests, CI, structured output, documentation and an explicit security boundary.
+The goal of this profile is not to collect one-off scripts. Each flagship repository is treated as a small engineering project: clear scope, reproducible builds, tests, CI, structured output, documentation and an explicit security boundary. Research publications follow the same principle: primary-source evidence, technical reconstruction, confidence boundaries and clear separation between exposure, exploitation and confirmed impact.
 
 > **Security scope:** projects here are intended for authorized labs, defensive research, detection engineering, education, or controlled security testing.
 
@@ -43,6 +44,26 @@ The **v1.0.0 Complete Edition** is organized as a 107-page manual with seven com
 The public repository is intentionally limited to project information, a controlled preview, provenance records and publication metadata; the complete customer edition and private build/source tree are kept outside the public repo.
 
 Authorship and provenance are explicitly recorded under **Michel-DV** through the repository history, `CITATION.cff`, release manifests, document metadata and copyright notices.
+
+## Threat Case Studies
+
+The **Michel-DV Threat Case Studies** series reconstructs major compromises from the trust boundary outward: how access was obtained, where trust failed, how execution crossed technical layers, what defenders could observe, and which conclusions are supported by public evidence.
+
+| Case | Incident | Research focus | Final edition |
+| --- | --- | --- | --- |
+| **[CASE-001](https://github.com/Michel-DV/solarwinds-supply-chain-case-study)** | **SolarWinds Supply-Chain Compromise** | Enterprise build-pipeline compromise, SUNSPOT/SUNBURST, selective victim promotion, identity and cloud follow-on activity. | `v1.1.0` |
+| **[CASE-002](https://github.com/Michel-DV/xz-utils-backdoor-case-study)** | **XZ Utils Backdoor / CVE-2024-3094** | Maintainer trust, release-tarball divergence, malicious build staging, liblzma injection, IFUNC/runtime redirection and SSH pre-auth trigger architecture. | `v1.0.0` |
+| **[CASE-003](https://github.com/Michel-DV/3cx-desktopapp-supply-chain-case-study)** | **3CX DesktopApp Supply-Chain Compromise** | Cascading supply-chain intrusion from X_TRADER to corporate identity, build environments, signed downstream releases and selective post-compromise activity. | `v1.0.0` |
+
+Each case includes a technical incident reconstruction, **trust-boundary analysis, detection hypotheses, MITRE ATT&CK mapping, response lessons, primary-source references and safe Red Team / research emulation notes**.
+
+```text
+CASE-001  SolarWinds  → enterprise vendor build pipeline
+CASE-002  XZ Utils    → open-source maintainer & release trust
+CASE-003  3CX         → cascading supplier-to-customer compromise
+```
+
+This series complements the engineering repositories: the tools explore telemetry and implementation; the case studies explain how real intrusions cross systems, identities, build infrastructure and organizational trust.
 
 ## Legacy Windows research
 
@@ -101,7 +122,10 @@ A few principles recur across the repositories:
 
 ## Releases & publications
 
-- **RED OPS Security Manual** — `v1.0.0`
+- **[RED OPS Security Manual](https://github.com/Michel-DV/red-ops-security-manual)** — `v1.0.0`
+- **[CASE-001 · SolarWinds Supply-Chain Case Study](https://github.com/Michel-DV/solarwinds-supply-chain-case-study)** — `v1.1.0`
+- **[CASE-002 · XZ Utils Backdoor Case Study](https://github.com/Michel-DV/xz-utils-backdoor-case-study)** — `v1.0.0`
+- **[CASE-003 · 3CX DesktopApp Supply-Chain Case Study](https://github.com/Michel-DV/3cx-desktopapp-supply-chain-case-study)** — `v1.0.0`
 - **ProcSentinel-C** — `v1.0.0`
 - **Win-TraceGuard** — `v1.0.1`
 - **VoidWalker** — `v2.1.0`
