@@ -143,7 +143,7 @@ A few principles recur across the repositories:
 - **[CASE-002 · XZ Utils Backdoor Case Study](https://github.com/Michel-DV/xz-utils-backdoor-case-study)** — `v1.0.0`
 - **[CASE-003 · 3CX DesktopApp Supply-Chain Case Study](https://github.com/Michel-DV/3cx-desktopapp-supply-chain-case-study)** — `v1.0.0`
 - **[CASE-004 · ProjectSauron / Strider Air-Gap Espionage Case Study](https://github.com/Michel-DV/projectsauron-air-gap-espionage-case-study)** — `v1.0.0`
-- **[HOLMES CTF 2026 · The Reichenbach Directive](https://github.com/Michel-DV/holmes-ctf-2026-reichenbach-directive)** — DFIR investigation publication
+- **[HOLMES CTF 2026 · The Reichenbach Directive](https://github.com/Michel-DV/holmes-ctf-2026-reichenbach-directive/releases/tag/v1.0.2)** — `v1.0.2`
 - **[ProcSentinel-C](https://github.com/Michel-DV/ProcSentinel-C/releases/tag/v1.0.0)** — `v1.0.0`
 - **[Win-TraceGuard](https://github.com/Michel-DV/Win-TraceGuard/releases/tag/v1.0.1)** — `v1.0.1`
 - **[VoidWalker](https://github.com/Michel-DV/VoidWalker/releases/tag/v2.1.0)** — `v2.1.0`
