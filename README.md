@@ -9,7 +9,7 @@
   <a href="https://github.com/Michel-DV/Go-Fast-Scanner"><img src="https://img.shields.io/badge/Go-Network%20Security-39ff88?style=flat-square&labelColor=111814" alt="Go Network Security" /></a>
   <a href="https://github.com/Michel-DV/Analisi-MyDoom"><img src="https://img.shields.io/badge/YARA%20%2F%20Sigma-Malware%20Analysis-39ff88?style=flat-square&labelColor=111814" alt="Malware Analysis" /></a>
   <a href="https://github.com/Michel-DV/red-ops-security-manual"><img src="https://img.shields.io/badge/RED%20OPS-Field%20Reference-b91c3a?style=flat-square&labelColor=1b0b0f" alt="RED OPS Security Manual" /></a>
-  <a href="https://github.com/Michel-DV/projectsauron-air-gap-espionage-case-study"><img src="https://img.shields.io/badge/CASE--001%E2%86%92004-Threat%20Research-c2415d?style=flat-square&labelColor=1b0b0f" alt="Threat Case Studies" /></a>
+  <a href="https://github.com/Michel-DV#threat-case-studies"><img src="https://img.shields.io/badge/CASE--001%E2%86%92004-Threat%20Research-c2415d?style=flat-square&labelColor=1b0b0f" alt="Threat Case Studies" /></a>
   <a href="https://github.com/Michel-DV/holmes-ctf-2026-reichenbach-directive"><img src="https://img.shields.io/badge/HOLMES%202026-DFIR%20Investigation-168DA0?style=flat-square&labelColor=111814" alt="HOLMES CTF 2026 DFIR Investigation" /></a>
 </p>
 
@@ -144,12 +144,12 @@ A few principles recur across the repositories:
 - **[CASE-003 · 3CX DesktopApp Supply-Chain Case Study](https://github.com/Michel-DV/3cx-desktopapp-supply-chain-case-study)** — `v1.0.0`
 - **[CASE-004 · ProjectSauron / Strider Air-Gap Espionage Case Study](https://github.com/Michel-DV/projectsauron-air-gap-espionage-case-study)** — `v1.0.0`
 - **[HOLMES CTF 2026 · The Reichenbach Directive](https://github.com/Michel-DV/holmes-ctf-2026-reichenbach-directive)** — DFIR investigation publication
-- **ProcSentinel-C** — `v1.0.0`
-- **Win-TraceGuard** — `v1.0.1`
-- **VoidWalker** — `v2.1.0`
-- **Go-Fast-Scanner** — `v2.0.0`
-- **Python C2 Lab** — `v2.1.0`
-- **MyDoom Analysis & Detection Engineering** — `v2.0.0`
+- **[ProcSentinel-C](https://github.com/Michel-DV/ProcSentinel-C/releases/tag/v1.0.0)** — `v1.0.0`
+- **[Win-TraceGuard](https://github.com/Michel-DV/Win-TraceGuard/releases/tag/v1.0.1)** — `v1.0.1`
+- **[VoidWalker](https://github.com/Michel-DV/VoidWalker/releases/tag/v2.1.0)** — `v2.1.0`
+- **[Go-Fast-Scanner](https://github.com/Michel-DV/Go-Fast-Scanner/releases/tag/v2.0.0)** — `v2.0.0`
+- **[Python C2 Lab](https://github.com/Michel-DV/Python-RedTeam-C2-Framework/releases/tag/v2.1.0)** — `v2.1.0`
+- **[MyDoom Analysis & Detection Engineering](https://github.com/Michel-DV/Analisi-MyDoom/releases/tag/v2.0.0)** — `v2.0.0`
 
 ---
 
