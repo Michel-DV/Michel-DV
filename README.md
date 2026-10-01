@@ -9,7 +9,7 @@
   <a href="https://github.com/Michel-DV/Go-Fast-Scanner"><img src="https://img.shields.io/badge/Go-Network%20Security-39ff88?style=flat-square&labelColor=111814" alt="Go Network Security" /></a>
   <a href="https://github.com/Michel-DV/Analisi-MyDoom"><img src="https://img.shields.io/badge/YARA%20%2F%20Sigma-Malware%20Analysis-39ff88?style=flat-square&labelColor=111814" alt="Malware Analysis" /></a>
   <a href="https://github.com/Michel-DV/red-ops-security-manual"><img src="https://img.shields.io/badge/RED%20OPS-Field%20Reference-b91c3a?style=flat-square&labelColor=1b0b0f" alt="RED OPS Security Manual" /></a>
-  <a href="https://github.com/Michel-DV/3cx-desktopapp-supply-chain-case-study"><img src="https://img.shields.io/badge/CASE--001%E2%86%92003-Threat%20Research-c2415d?style=flat-square&labelColor=1b0b0f" alt="Threat Case Studies" /></a>
+  <a href="https://github.com/Michel-DV/projectsauron-air-gap-espionage-case-study"><img src="https://img.shields.io/badge/CASE--001%E2%86%92004-Threat%20Research-c2415d?style=flat-square&labelColor=1b0b0f" alt="Threat Case Studies" /></a>
 </p>
 
 ## About this profile
@@ -53,14 +53,14 @@ The **Michel-DV Threat Case Studies** series reconstructs major compromises from
 | --- | --- | --- | --- |
 | **[CASE-001](https://github.com/Michel-DV/solarwinds-supply-chain-case-study)** | **SolarWinds Supply-Chain Compromise** | Enterprise build-pipeline compromise, SUNSPOT/SUNBURST, selective victim promotion, identity and cloud follow-on activity. | `v1.1.0` |
 | **[CASE-002](https://github.com/Michel-DV/xz-utils-backdoor-case-study)** | **XZ Utils Backdoor / CVE-2024-3094** | Maintainer trust, release-tarball divergence, malicious build staging, liblzma injection, IFUNC/runtime redirection and SSH pre-auth trigger architecture. | `v1.0.0` |
-| **[CASE-003](https://github.com/Michel-DV/3cx-desktopapp-supply-chain-case-study)** | **3CX DesktopApp Supply-Chain Compromise** | Cascading supply-chain intrusion from X_TRADER to corporate identity, build environments, signed downstream releases and selective post-compromise activity. | `v1.0.0` |
+| **[CASE-003](https://github.com/Michel-DV/3cx-desktopapp-supply-chain-case-study)** | **3CX DesktopApp Supply-Chain Compromise** | Cascading supply-chain intrusion from X_TRADER to corporate identity, build environments, signed downstream releases and selective post-compromise activity. | `v1.0.0` |\n| **[CASE-004](https://github.com/Michel-DV/projectsauron-air-gap-espionage-case-study)** | **ProjectSauron / Strider — Air-Gap Espionage Platform** | Victim-specific implants, memory-resident modules, authentication-process abuse, encrypted VFS, covert communications and removable-media bridging into air-gapped environments. | `v1.0.0` |
 
 Each case includes a technical incident reconstruction, **trust-boundary analysis, detection hypotheses, MITRE ATT&CK mapping, response lessons, primary-source references and safe Red Team / research emulation notes**.
 
 ```text
 CASE-001  SolarWinds  → enterprise vendor build pipeline
 CASE-002  XZ Utils    → open-source maintainer & release trust
-CASE-003  3CX         → cascading supplier-to-customer compromise
+CASE-003  3CX         → cascading supplier-to-customer compromise\nCASE-004  ProjectSauron → cyber-espionage / air-gap bridging
 ```
 
 This series complements the engineering repositories: the tools explore telemetry and implementation; the case studies explain how real intrusions cross systems, identities, build infrastructure and organizational trust.
@@ -125,7 +125,7 @@ A few principles recur across the repositories:
 - **[RED OPS Security Manual](https://github.com/Michel-DV/red-ops-security-manual)** — `v1.0.0`
 - **[CASE-001 · SolarWinds Supply-Chain Case Study](https://github.com/Michel-DV/solarwinds-supply-chain-case-study)** — `v1.1.0`
 - **[CASE-002 · XZ Utils Backdoor Case Study](https://github.com/Michel-DV/xz-utils-backdoor-case-study)** — `v1.0.0`
-- **[CASE-003 · 3CX DesktopApp Supply-Chain Case Study](https://github.com/Michel-DV/3cx-desktopapp-supply-chain-case-study)** — `v1.0.0`
+- **[CASE-003 · 3CX DesktopApp Supply-Chain Case Study](https://github.com/Michel-DV/3cx-desktopapp-supply-chain-case-study)** — `v1.0.0`\n- **[CASE-004 · ProjectSauron / Strider Air-Gap Espionage Case Study](https://github.com/Michel-DV/projectsauron-air-gap-espionage-case-study)** — `v1.0.0`
 - **ProcSentinel-C** — `v1.0.0`
 - **Win-TraceGuard** — `v1.0.1`
 - **VoidWalker** — `v2.1.0`
