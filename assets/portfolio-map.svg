@@ -1,27 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="850" viewBox="0 0 1200 850" role="img" aria-labelledby="title desc">
   <title id="title">MDV Security Portfolio Map</title>
-  <desc id="desc">Map of flagship engineering projects and the RED OPS technical publication</desc>
+  <desc id="desc">Map of engineering projects, threat research, DFIR investigations, technical publications and legacy research</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#070a09"/>
-      <stop offset="1" stop-color="#0c1411"/>
-    </linearGradient>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070a09"/><stop offset="1" stop-color="#0c1411"/></linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
-  <rect width="1200" height="660" rx="20" fill="url(#bg)" stroke="#39ff88" stroke-opacity="0.15"/>
+  <rect width="1200" height="850" rx="20" fill="url(#bg)" stroke="#39ff88" stroke-opacity="0.15"/>
 
   <text x="60" y="62" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="28" font-weight="800" fill="#f0fff4">PORTFOLIO MAP</text>
-  <text x="60" y="92" font-family="Consolas, Menlo, monospace" font-size="15" fill="#91a79a">Engineering projects + technical publication</text>
+  <text x="60" y="92" font-family="Consolas, Menlo, monospace" font-size="15" fill="#91a79a">Engineering • threat research • DFIR • technical publishing</text>
 
-  <g stroke="#39ff88" stroke-opacity="0.25" stroke-width="2" fill="none">
+  <g stroke="#39ff88" stroke-opacity="0.22" stroke-width="2" fill="none">
     <path d="M600 154V210"/>
-    <path d="M600 210H220V250"/>
-    <path d="M600 210H600V250"/>
-    <path d="M600 210H980V250"/>
-    <path d="M600 460V500"/>
+    <path d="M600 210H220V245"/>
+    <path d="M600 210V245"/>
+    <path d="M600 210H980V245"/>
+    <path d="M600 455V500"/>
   </g>
 
   <g transform="translate(438 116)">
@@ -30,7 +24,7 @@
     <text x="162" y="57" text-anchor="middle" font-family="Consolas, monospace" font-size="13" fill="#39ff88">observe • analyze • detect • explain</text>
   </g>
 
-  <g transform="translate(60 250)">
+  <g transform="translate(60 245)">
     <rect width="320" height="210" rx="18" fill="#0d1512" stroke="#39ff88" stroke-opacity="0.32"/>
     <text x="24" y="38" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#39ff88">ENDPOINT / WINDOWS</text>
     <text x="24" y="78" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#f0fff4">ProcSentinel-C</text>
@@ -40,7 +34,7 @@
     <circle cx="292" cy="34" r="5" fill="#39ff88" filter="url(#glow)"/>
   </g>
 
-  <g transform="translate(440 250)">
+  <g transform="translate(440 245)">
     <rect width="320" height="210" rx="18" fill="#0d1512" stroke="#39ff88" stroke-opacity="0.32"/>
     <text x="24" y="38" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#39ff88">NETWORK / IoT</text>
     <text x="24" y="78" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#f0fff4">VoidWalker</text>
@@ -50,7 +44,7 @@
     <circle cx="292" cy="34" r="5" fill="#39ff88" filter="url(#glow)"/>
   </g>
 
-  <g transform="translate(820 250)">
+  <g transform="translate(820 245)">
     <rect width="320" height="210" rx="18" fill="#0d1512" stroke="#39ff88" stroke-opacity="0.32"/>
     <text x="24" y="38" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#39ff88">ANALYSIS / PROTOCOLS</text>
     <text x="24" y="78" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#f0fff4">Analisi-MyDoom</text>
@@ -60,14 +54,39 @@
     <circle cx="292" cy="34" r="5" fill="#39ff88" filter="url(#glow)"/>
   </g>
 
-  <g transform="translate(250 500)">
-    <rect width="700" height="104" rx="18" fill="#1b0b0f" stroke="#b91c3a" stroke-opacity="0.72"/>
-    <rect width="12" height="104" rx="6" fill="#b91c3a"/>
-    <text x="40" y="32" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#e11d48">PUBLICATION / FIELD REFERENCE</text>
-    <text x="40" y="63" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="800" fill="#f8fafc">RED OPS Security Manual</text>
-    <text x="40" y="87" font-family="Consolas, monospace" font-size="13" fill="#c4c7cc">107 pages • 7 guides • 28-page field cards • v1.0.0</text>
-    <circle cx="662" cy="30" r="5" fill="#e11d48" filter="url(#glow)"/>
+  <g transform="translate(60 505)">
+    <rect width="340" height="145" rx="18" fill="#1b0b0f" stroke="#b91c3a" stroke-opacity="0.72"/>
+    <rect width="11" height="145" rx="6" fill="#b91c3a"/>
+    <text x="34" y="34" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#e11d48">FIELD REFERENCE</text>
+    <text x="34" y="66" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="800" fill="#f8fafc">RED OPS Security Manual</text>
+    <text x="34" y="96" font-family="Consolas, monospace" font-size="12.5" fill="#c4c7cc">107 pages • 7 guides • field cards</text>
+    <text x="34" y="119" font-family="Consolas, monospace" font-size="12.5" fill="#c4c7cc">authorized pentest / red team workflows</text>
   </g>
 
-  <text x="60" y="636" font-family="Consolas, monospace" font-size="13" fill="#7f9688">Authorized labs • defensive research • detection engineering • controlled security testing • technical publishing</text>
+  <g transform="translate(430 505)">
+    <rect width="340" height="145" rx="18" fill="#180d12" stroke="#c2415d" stroke-opacity="0.75"/>
+    <rect width="11" height="145" rx="6" fill="#c2415d"/>
+    <text x="34" y="34" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#ef6c85">THREAT RESEARCH</text>
+    <text x="34" y="66" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="800" fill="#f8fafc">CASE-001 → CASE-004</text>
+    <text x="34" y="96" font-family="Consolas, monospace" font-size="12.5" fill="#c4c7cc">SolarWinds • XZ • 3CX • ProjectSauron</text>
+    <text x="34" y="119" font-family="Consolas, monospace" font-size="12.5" fill="#c4c7cc">incident reconstruction • detection hypotheses</text>
+  </g>
+
+  <g transform="translate(800 505)">
+    <rect width="340" height="145" rx="18" fill="#0a1720" stroke="#168DA0" stroke-opacity="0.78"/>
+    <rect width="11" height="145" rx="6" fill="#168DA0"/>
+    <text x="34" y="34" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#49bed0">DFIR / INVESTIGATION</text>
+    <text x="34" y="66" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="800" fill="#f8fafc">HOLMES CTF 2026</text>
+    <text x="34" y="92" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#d8eef2">The Reichenbach Directive</text>
+    <text x="34" y="119" font-family="Consolas, monospace" font-size="12.5" fill="#b9d3d8">104/111 • DFIR • RE • AD • mobile • UAV</text>
+  </g>
+
+  <g transform="translate(250 690)">
+    <rect width="700" height="88" rx="18" fill="#101412" stroke="#718078" stroke-opacity="0.4"/>
+    <text x="28" y="31" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#93a69b">LEGACY RESEARCH</text>
+    <text x="28" y="61" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#e9f3ed">Windows-Process-Injector-C</text>
+    <text x="325" y="61" font-family="Consolas, monospace" font-size="12.5" fill="#9eada5">classic WinAPI injection primitive • detection-oriented study</text>
+  </g>
+
+  <text x="60" y="825" font-family="Consolas, monospace" font-size="13" fill="#7f9688">Authorized labs • defensive research • DFIR • detection engineering • controlled security testing • technical publishing</text>
 </svg>
