@@ -10,13 +10,14 @@
   <a href="https://github.com/Michel-DV/Analisi-MyDoom"><img src="https://img.shields.io/badge/YARA%20%2F%20Sigma-Malware%20Analysis-39ff88?style=flat-square&labelColor=111814" alt="Malware Analysis" /></a>
   <a href="https://github.com/Michel-DV/red-ops-security-manual"><img src="https://img.shields.io/badge/RED%20OPS-Field%20Reference-b91c3a?style=flat-square&labelColor=1b0b0f" alt="RED OPS Security Manual" /></a>
   <a href="https://github.com/Michel-DV/projectsauron-air-gap-espionage-case-study"><img src="https://img.shields.io/badge/CASE--001%E2%86%92004-Threat%20Research-c2415d?style=flat-square&labelColor=1b0b0f" alt="Threat Case Studies" /></a>
+  <a href="https://github.com/Michel-DV/holmes-ctf-2026-reichenbach-directive"><img src="https://img.shields.io/badge/HOLMES%202026-DFIR%20Investigation-168DA0?style=flat-square&labelColor=111814" alt="HOLMES CTF 2026 DFIR Investigation" /></a>
 </p>
 
 ## About this profile
 
-I build practical cybersecurity projects around **Windows internals, endpoint telemetry, detection engineering, malware analysis, network security and IoT security** — and I publish technical field references and **threat-research case studies** that turn real incidents into reproducible defensive lessons.
+I build practical cybersecurity projects around **Windows internals, endpoint telemetry, detection engineering, malware analysis, network security, IoT security, DFIR and reverse engineering** — and I publish technical field references, **threat-research case studies** and evidence-driven incident investigations that turn real attack paths into reproducible defensive lessons.
 
-The goal of this profile is not to collect one-off scripts. Each flagship repository is treated as a small engineering project: clear scope, reproducible builds, tests, CI, structured output, documentation and an explicit security boundary. Research publications follow the same principle: primary-source evidence, technical reconstruction, confidence boundaries and clear separation between exposure, exploitation and confirmed impact.
+The goal of this profile is not to collect one-off scripts. Each flagship repository is treated as a small engineering project: clear scope, reproducible builds, tests, CI, structured output, documentation and an explicit security boundary. Research publications follow the same principle: primary-source evidence, technical reconstruction, confidence boundaries, cross-artifact correlation and clear separation between fact, inference, exposure, exploitation and confirmed impact.
 
 > **Security scope:** projects here are intended for authorized labs, defensive research, detection engineering, education, or controlled security testing.
 
@@ -53,17 +54,32 @@ The **Michel-DV Threat Case Studies** series reconstructs major compromises from
 | --- | --- | --- | --- |
 | **[CASE-001](https://github.com/Michel-DV/solarwinds-supply-chain-case-study)** | **SolarWinds Supply-Chain Compromise** | Enterprise build-pipeline compromise, SUNSPOT/SUNBURST, selective victim promotion, identity and cloud follow-on activity. | `v1.1.0` |
 | **[CASE-002](https://github.com/Michel-DV/xz-utils-backdoor-case-study)** | **XZ Utils Backdoor / CVE-2024-3094** | Maintainer trust, release-tarball divergence, malicious build staging, liblzma injection, IFUNC/runtime redirection and SSH pre-auth trigger architecture. | `v1.0.0` |
-| **[CASE-003](https://github.com/Michel-DV/3cx-desktopapp-supply-chain-case-study)** | **3CX DesktopApp Supply-Chain Compromise** | Cascading supply-chain intrusion from X_TRADER to corporate identity, build environments, signed downstream releases and selective post-compromise activity. | `v1.0.0` |\n| **[CASE-004](https://github.com/Michel-DV/projectsauron-air-gap-espionage-case-study)** | **ProjectSauron / Strider — Air-Gap Espionage Platform** | Victim-specific implants, memory-resident modules, authentication-process abuse, encrypted VFS, covert communications and removable-media bridging into air-gapped environments. | `v1.0.0` |
+| **[CASE-003](https://github.com/Michel-DV/3cx-desktopapp-supply-chain-case-study)** | **3CX DesktopApp Supply-Chain Compromise** | Cascading supply-chain intrusion from X_TRADER to corporate identity, build environments, signed downstream releases and selective post-compromise activity. | `v1.0.0` |
+| **[CASE-004](https://github.com/Michel-DV/projectsauron-air-gap-espionage-case-study)** | **ProjectSauron / Strider — Air-Gap Espionage Platform** | Victim-specific implants, memory-resident modules, authentication-process abuse, encrypted VFS, covert communications and removable-media bridging into air-gapped environments. | `v1.0.0` |
 
 Each case includes a technical incident reconstruction, **trust-boundary analysis, detection hypotheses, MITRE ATT&CK mapping, response lessons, primary-source references and safe Red Team / research emulation notes**.
 
 ```text
-CASE-001  SolarWinds  → enterprise vendor build pipeline
-CASE-002  XZ Utils    → open-source maintainer & release trust
-CASE-003  3CX         → cascading supplier-to-customer compromise\nCASE-004  ProjectSauron → cyber-espionage / air-gap bridging
+CASE-001  SolarWinds    → enterprise vendor build pipeline
+CASE-002  XZ Utils      → open-source maintainer & release trust
+CASE-003  3CX           → cascading supplier-to-customer compromise
+CASE-004  ProjectSauron → cyber-espionage / air-gap bridging
 ```
 
 This series complements the engineering repositories: the tools explore telemetry and implementation; the case studies explain how real intrusions cross systems, identities, build infrastructure and organizational trust.
+
+## DFIR & investigation research
+
+**[HOLMES CTF 2026 — The Reichenbach Directive](https://github.com/Michel-DV/holmes-ctf-2026-reichenbach-directive)** is the publication edition of my investigation into Hack The Box HOLMES CTF 2026. Rather than treating the event as nine isolated challenge write-ups, the repository reconstructs a connected investigation across **endpoint forensics, malware analysis, threat intelligence, reverse engineering, Android/embedded analysis, UAV forensics, Active Directory, Kerberos and cross-case correlation**.
+
+| Metric | Result |
+| --- | ---: |
+| Team rank | **#211 / 5,637** |
+| Validated tasks | **104 / 111** |
+| Total points | **8,200** |
+| Fully completed Sherlocks | **6 / 9** |
+
+The repository includes a canonical long-form investigation, a designed publication PDF, nine case files, a master timeline, explicit **FACT / CORRELATION / INFERENCE / OPEN** evidence labels, and reproducible reasoning without redistributing HTB challenge evidence.
 
 ## Legacy Windows research
 
@@ -120,12 +136,14 @@ A few principles recur across the repositories:
   <a href="https://github.com/Michel-DV/Analisi-MyDoom/actions/workflows/build-report.yml"><img src="https://github.com/Michel-DV/Analisi-MyDoom/actions/workflows/build-report.yml/badge.svg?branch=main" alt="MyDoom report CI" /></a>
 </p>
 
-## Releases & publications
+## Releases, investigations & publications
 
 - **[RED OPS Security Manual](https://github.com/Michel-DV/red-ops-security-manual)** — `v1.0.0`
 - **[CASE-001 · SolarWinds Supply-Chain Case Study](https://github.com/Michel-DV/solarwinds-supply-chain-case-study)** — `v1.1.0`
 - **[CASE-002 · XZ Utils Backdoor Case Study](https://github.com/Michel-DV/xz-utils-backdoor-case-study)** — `v1.0.0`
-- **[CASE-003 · 3CX DesktopApp Supply-Chain Case Study](https://github.com/Michel-DV/3cx-desktopapp-supply-chain-case-study)** — `v1.0.0`\n- **[CASE-004 · ProjectSauron / Strider Air-Gap Espionage Case Study](https://github.com/Michel-DV/projectsauron-air-gap-espionage-case-study)** — `v1.0.0`
+- **[CASE-003 · 3CX DesktopApp Supply-Chain Case Study](https://github.com/Michel-DV/3cx-desktopapp-supply-chain-case-study)** — `v1.0.0`
+- **[CASE-004 · ProjectSauron / Strider Air-Gap Espionage Case Study](https://github.com/Michel-DV/projectsauron-air-gap-espionage-case-study)** — `v1.0.0`
+- **[HOLMES CTF 2026 · The Reichenbach Directive](https://github.com/Michel-DV/holmes-ctf-2026-reichenbach-directive)** — DFIR investigation publication
 - **ProcSentinel-C** — `v1.0.0`
 - **Win-TraceGuard** — `v1.0.1`
 - **VoidWalker** — `v2.1.0`
